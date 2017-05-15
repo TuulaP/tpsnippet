@@ -1,0 +1,31 @@
+{
+"xusecaseen": {
+    "prefix": "xusecase",
+    "body" : [
+        "Actor: User\n",
+        "Preconditions: User must have navigated to page",
+        "Body: ...",
+        "Postconditions: "
+    ],
+    "description" : "Basic use case structure"
+},
+
+"usecasefi": {
+    "prefix": "usecasefi ",
+    "body" : [
+        "Käyttötapaus: ${1:index} ",
+        "Tavoite: Käyttäjä haluaa XXX, jotta YYY\n",
+        "Toimijat/Käyttäjät: Käyttäjä X",
+        "Prioriteetti: Medium",
+        "Esiehdot: Käyttäjä on sivulla ",
+        "Kuvaus: Käyttäjä ...",
+        "Peruspolku: \n\t1.\n\t2.\n\t3.\n\t4.\n",
+        "Lopputilanne: Käyttäjä on ",
+        "Vaihtoehtoiset polut: 1. ...",
+        "Poikkeukset: ",
+        "Testauksessa muistettavaa: \n\t...\n"
+    ]
+    ,
+    "description": "Käyttötapauspohja "
+}
+}

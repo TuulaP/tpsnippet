@@ -1,0 +1,19 @@
+{
+"usecasefi": {
+    "prefix": "usec ",
+    "body" : [
+        "## Käyttötapaus:\n\t${1:index} \n",
+        "## Tavoite:\n\tKäyttäjä haluaa XXX, jotta YYY\n",
+        "## Toimijat/Käyttäjät:\nKäyttäjä X\n",
+        "## Prioriteetti: ${2|Low|Medium|High}",
+        "## Esiehdot:\n\tKäyttäjä on sivulla\n",
+        "## Kuvaus:\n\tKäyttäjä ...\n",
+        "## Peruspolku:\n\t1.\n\t2.\n\t3.\n\t4.\n",
+        "## Lopputilanne:\n\tKäyttäjä on\n",
+        "## Vaihtoehtoiset polut:\n\t1. ...\n",
+        "## Poikkeukset:\n\t\n",
+        "## Testauksessa muistettavaa:\n\t...\n"
+    ],
+    "description": "Käyttötapauspohja "
+}
+}
