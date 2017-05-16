@@ -1,0 +1,8 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+{
+    "key": "ctrl+u",
+    "command": "editor.action.insertSnippet",
+    "args": { "name": "usecasefi" },
+    "when": "editorTextFocus"
+}]

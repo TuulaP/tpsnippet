@@ -4,7 +4,9 @@ This is the README for your extension "tpsnippet". After writing up a brief desc
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Provides simple 'snippet' or template for a usecase
+for the Visual Studio Code editor case.
+
 
 For example if there is an image subfolder under your extension project workspace:
 
@@ -14,38 +16,39 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Visual Studio Code 
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+None
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Probably some...
+
+## Utilization
+
+After folder has been downloaded, it can be put to
+%USERPROFILE%\.vscode\extensions\  , then the plugin is
+available at all times.
+
+See 'keybindings.json' for customizing a key for the snippet use.
+ 
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
-### 1.0.0
+### 0.0
 
-Initial release of ...
+Empty version based on generated basics
 
-### 1.0.1
+### 0.0.1
 
-Fixed issue #.
+Fine-tuned use case text a bit.
 
-### 1.1.0
+### 0.0.2
 
-Added features X, Y, and Z.
+Keybinding for snippet & updating this
 
 -----------------------------------------------------------------------------------------------------------
 
