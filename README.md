@@ -1,12 +1,10 @@
 # tpsnippet README
 
-This is the README for your extension "tpsnippet". After writing up a brief description, we recommend including the following sections.
+This is the README for the extension "tpsnippet". 
 
 ## Features
 
-Provides simple 'snippet' or template for a usecase
-for the Visual Studio Code editor case.
-
+Provides simple 'snippet' or template for a usecase for the Visual Studio Code editor.
 
 For example if there is an image subfolder under your extension project workspace:
 
@@ -28,11 +26,11 @@ Probably some...
 
 ## Utilization
 
-After folder has been downloaded, it can be put to
-%USERPROFILE%\.vscode\extensions\  , then the plugin is
+After folder has been downloaded, it can be put to `%USERPROFILE%\.vscode\extensions\`  , then the plugin is
 available at all times.
 
-See 'keybindings.json' for customizing a key for the snippet use.
+See `keybindings.json` for customizing a key for the snippet use. After applying that, `Ctrl+u`
+will insert snippet to the cursor location.
  
 
 ## Release Notes
