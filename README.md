@@ -16,13 +16,12 @@ For example if there is an image subfolder under your extension project workspac
 
 Visual Studio Code 
 
-## Extension Settings
+`npm install markdown-to-html -g` for html generation from Markdown.
 
-None
 
 ## Known Issues
 
-Probably some...
+Probably some... 
 
 ## Utilization
 
@@ -31,7 +30,11 @@ available at all times.
 
 See `keybindings.json` for customizing a key for the snippet use. After applying that, `Ctrl+u`
 will insert snippet to the cursor location.
- 
+
+### HTML generation
+
+    markdown myfancyfile.md > outputfile.html
+
 
 ## Release Notes
 
