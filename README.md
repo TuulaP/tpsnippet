@@ -14,9 +14,8 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-Visual Studio Code 
-
-`npm install markdown-to-html -g` for html generation from Markdown.
+* Visual Studio Code 
+* http://pandoc.org/installing.html  for html generation
 
 
 ## Known Issues
@@ -33,8 +32,7 @@ will insert snippet to the cursor location.
 
 ### HTML generation
 
-    markdown myfancyfile.md > outputfile.html
-
+`pandoc.exe  -s -o output.html input.md 
 
 ## Release Notes
 
@@ -46,10 +44,15 @@ Empty version based on generated basics
 ### 0.0.1
 
 Fine-tuned use case text a bit.
-
+ 
 ### 0.0.2
 
 Keybinding for snippet & updating this
+
+### 0.0.3
+
+Some adjustments for HTML generation. Starting to think gradle for deploying changes
+automagically to VSCode config path.
 
 -----------------------------------------------------------------------------------------------------------
 
