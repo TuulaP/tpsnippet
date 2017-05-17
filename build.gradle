@@ -1,0 +1,41 @@
+
+
+def srcDir = ".\\snippets"
+def vsdir = "\\.vscode\\extensions\\tpsnippet\\snippets"
+def targetDir = System.getenv('USERPROFILE')+vsdir
+def tarRoot = targetDir + "\\tpsnippet"
+
+task localCopy (type: Copy) {
+    into targetDir
+    from srcDir
+
+}
+
+localCopy.eachFile {
+    println it.path
+}
+
+task deploy (type: Sync) {
+    destinationDir = file(srcDir)
+    from localCopy
+    include '*.json'
+}
+
+task done  << {
+    println 'All done!'
+}
+
+def difcomm = 'diff'+" snippets/markdown.json "+targetDir
+def diffprocess = difcomm.execute()
+
+task testDeploy << {
+    int status = difcomm.waitFor()
+
+    if (status == 1) {
+        println "1"
+    } else  {
+        println '0'
+    }
+
+}
+
