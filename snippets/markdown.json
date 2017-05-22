@@ -7,11 +7,11 @@
         "### Toimijat/Käyttäjät:\n\tKäyttäjä X\n",
         "### Prioriteetti: ${2|Low|Medium|High}",
         "### Esiehdot:\n\tKäyttäjä on sivulla\n",
-        "### Peruspolku:\n\t1.\n\t2.\n\t3.\n\t4. \n",
+        "### Peruspolku:\n  1.\n  2.\n  3.\n  4. \n",
         "### Lopputilanne:\n\tKäyttäjä on\n",
-        "### Vaihtoehtoiset polut:\n\t1. ...\n",
-        "### Poikkeukset:\n\t\n",
-        "### Testauksessa muistettavaa:\n\t\n",
+        "### Vaihtoehtoiset polut:\n  1. ...\n",
+        "### Poikkeukset:\n  * \n",
+        "### Testauksessa muistettavaa:\n  * \n",
         "----\n"
     ],
     "description": "Käyttötapauspohja (fi)"
