@@ -16,6 +16,7 @@ For example if there is an image subfolder under your extension project workspac
 
 * Visual Studio Code 
 * http://pandoc.org/installing.html  for html generation
+* pandoc inputfile.md -o output.docx 
 
 
 ## Known Issues
