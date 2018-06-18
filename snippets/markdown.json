@@ -2,7 +2,7 @@
 "usecasefi": {
     "prefix": "casef",
     "body" : [
-        "## Käyttötapaus:\n\t${1} \n",
+        "## KT:\n\t${1:index}.) \n",
         "### Tavoite:\n\tKäyttäjä haluaa XXX, jotta YYY\n",
         "### Toimijat/Käyttäjät:\n\tKäyttäjä X\n",
         "### Prioriteetti: ${2|Low|Medium|High}",
